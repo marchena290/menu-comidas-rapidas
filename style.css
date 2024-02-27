@@ -1,10 +1,10 @@
 body {
     background-image: url(./public/imagen-pizza.jpg);
-    background-size: cover; /* Ajusta el tamaño para cubrir todo el fondo */
-    background-position: center; /* Centra la imagen en el fondo */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     font-family: sans-serif;
-    margin: 0; /* Asegura que no haya márgenes alrededor del cuerpo */
+    margin: 0; 
   }
   
 h1 {
