@@ -1,0 +1,78 @@
+body {
+    background-image: url(./public/imagen-pizza.jpg);
+    background-size: cover; /* Ajusta el tamaño para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    font-family: sans-serif;
+    margin: 0; /* Asegura que no haya márgenes alrededor del cuerpo */
+  }
+  
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font: size 30px; ;
+}
+
+.established{
+    font-family: italic;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+.menu {
+    width: 80%;
+    background-color: lightgreen;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+h1, h2{
+    font-family: Impact, serif;
+}
+
+hr{
+    height: 2px;
+    background-color:white;
+    border-color: white;
+}
+
+section img.item {
+    max-width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top:-24px;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.meal, .dessert{
+    text-align: left;
+    width: 75%;
+}
+
+.price{
+    text-align: right;
+    width: 25%;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Puedes cambiar el color de fondo según tu preferencia */
+    color: #fff; 
+    margin-top: 20px;
+}
